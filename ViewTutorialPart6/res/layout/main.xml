@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.jayway.viewtutorial.part6"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.jayway.viewtutorial.part6.Chooser
+        android:id="@+id/chooser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#444" >
+
+        <TextView
+            android:id="@+id/walkning_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_color="#aa66cc"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Walking"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/running_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_color="#99cc00"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Running"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cycling_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_color="#ffbb33"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Cycling"
+            android:textColor="#FFF"
+            android:textSize="20dp" />
+    </com.jayway.viewtutorial.part6.Chooser>
+
+    <com.jayway.viewtutorial.part6.LineChartView
+        android:id="@+id/linechart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#444"
+        android:padding="16dp" />
+
+</LinearLayout>

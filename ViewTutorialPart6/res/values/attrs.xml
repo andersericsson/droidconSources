@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Choser_Layout">
+        <attr name="layout_color" format="color" />
+    </declare-styleable>
+</resources>
